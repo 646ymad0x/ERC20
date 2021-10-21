@@ -31,7 +31,7 @@ contract SafeMath {
 }
 
 
-contract Indian Rupi Tether is ERC20Interface, SafeMath {
+contract AndaRupiTether is ERC20Interface, SafeMath {
     string public name;
     string public symbol;
     uint8 public decimals; // 18 decimals is the strongly suggested default, avoid changing it
@@ -47,8 +47,8 @@ contract Indian Rupi Tether is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "Indian Rupi Tether";
-        symbol = "INRT";
+        name = "AndaRupiTether";
+        symbol = "ANRT";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
 
